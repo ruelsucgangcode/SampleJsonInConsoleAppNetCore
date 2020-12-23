@@ -17,8 +17,6 @@ namespace PDH.Repository
     {
         public async Task<List<OrdersDTO>> GetOrder(string orderId)
         {
-            //var GetDirectory = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-            //string JsonData = GetDirectory + "\\App_Data\\Pizza_Orders.json";
             var GetDirectory = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
             string JsonData = GetDirectory + Libs.Getinfo(Convert.ToInt32(ResourceEnum.ResourceCode.FileId)); ;
 

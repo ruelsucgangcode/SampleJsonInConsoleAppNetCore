@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Domain\DeliveryFeeModel.cs" />
+    <Compile Remove="Domain\PizzaModel.cs" />
+    <Compile Remove="Domain\SizeModel.cs" />
+  </ItemGroup>
+
+</Project>

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,6 +9,27 @@
     <Compile Remove="App_Data\**" />
     <EmbeddedResource Remove="App_Data\**" />
     <None Remove="App_Data\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\App_Data\databackujp\Pizza_Orders.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\App_Data\Pizza_Orders.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\PDH.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\PDH.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\PDH.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\PDH.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\PDH.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\PDH.Models.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\PDH.Models.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\PDH.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\PDH.Repository.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\PDH.Repository.pdb" />
   </ItemGroup>
 
   <ItemGroup>
